@@ -1,0 +1,126 @@
+.a-our-packages-wrapper{
+    padding: 8% 0 8%;
+    color: #343434;
+    background-color: #f3f3f3;
+}
+
+.a-our-packages-heading h1{
+    font-size: 250%;
+    font-weight: bold;
+}
+
+.push{
+    margin-top: 15%;
+}
+
+.a-our-packages-heading h1 span{
+    color: #076847;
+}
+
+h2{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.a-our-packages-quotes{
+    padding: 30% 0 30%;
+    background-color: #fff;
+}
+
+.a-our-packages-quotes p{
+    font-size: 250%;
+    color: #076847;
+    font-style: italic;
+}
+
+.a-our-packages-quotes span{
+    padding-left: 10%;
+    font-weight: bold;
+}
+
+.a-our-packages-more{
+    text-decoration: none;
+    color: #076847;
+}
+.a-our-packages-more:hover{
+    opacity: .8;
+}
+.a-our-packages-more img{
+    width: 10%;
+    height: 10%;
+    margin-left: 3%;
+}
+
+.a-our-packages-more:hover{
+    text-decoration: none;
+    color: #076847;
+}
+
+.a-our-packages-form{
+    width: 100%;
+}
+
+.a-our-packages-form input:first-child{
+    width: 80%;
+    padding: 2% 4%;
+    outline: none;
+    border: 0;
+    border-radius: 11px 0 0 11px;
+    color: #343434;
+}
+
+.a-our-packages-form input:last-child{
+    width: 20%;
+    padding: 2% 4%;
+    background-color: #076847;
+    outline: none;
+    border: 0;
+    border-radius: 0 11px 11px 0;
+    color: #f3f3f3;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 600px){
+    .a-our-packages-wrapper{
+        padding: 20% 0 20%;
+    }
+    .a-our-packages-heading p{
+        color: #343434;
+        font-size: 100%;
+        line-height: 120%;
+    }
+    .a-our-packages-form{
+        width: 100%;
+    }
+    .a-our-packages-form input:first-child{
+        width: 70%;
+        padding: 2% 4%;
+        outline: none;
+        border: 0;
+        border-radius: 0;
+        color: #343434;
+    }
+    .a-our-packages-form input:last-child{
+        width: 30%;
+        padding: 2% 4%;
+        border-radius: 0;
+        color: #f3f3f3;
+        font-weight: bold;
+    }
+    .a-our-packages-quotes{
+        padding: 20% 0 20%;
+        background-color: #fff;
+        margin-top: 10%;
+    }
+    
+    .a-our-packages-quotes p{
+        font-size: 200%;
+        color: #076847;
+        font-style: italic;
+    }
+    
+    .a-our-packages-quotes span{
+        padding-left: 0%;
+        font-weight: bold;
+    }
+}

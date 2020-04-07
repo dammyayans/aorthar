@@ -1,0 +1,118 @@
+.a-banner-wrapper{
+    padding: 20% 0 15%;
+    color: #343434;
+}
+
+.a-banner-heroImg{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.a-banner-heroImg{
+    height: 200%;
+}
+
+.a-banner-caption{
+    padding-top: 4%;
+}
+
+.a-banner-caption p{
+    color: #343434;
+    font-size: 100%;
+    line-height: 120%;
+    width: 65%;
+}
+
+.a-banner-greenText{
+    color: #076847;
+}
+
+.a-banner-trusted-brands{
+    background-color: #f3f3f3;
+    padding: 2% 0%;
+    font-weight: bold;
+    color: #343434;
+    font-size: 120%;
+}
+
+.a-banner-brands-caption{
+    position: relative;
+
+}
+
+.a-banner-brands-caption div{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 30%;
+    margin: auto;
+    color: #343434;
+}
+
+select{
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: #076847;
+}
+
+
+option{
+    background-color: #fff;
+    color: #076847;
+    outline: none;
+}
+
+.a-banner-pattern{
+    background-image: url('../../images/pattern.png');
+    background-repeat: repeat-x;
+    height: 150px;
+}
+
+
+
+/* MEDIA QUERY */
+@media screen and (max-width: 600px){
+
+    .a-banner-wrapper{
+        color: #343434;
+        margin-top: 20%;
+        margin: 0 auto;
+    }
+    .a-banner{
+        padding-top: 30%;
+    }
+    .a-banner-caption{
+        padding: 0;
+    }
+    .a-banner-heroImg{
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 0 auto;
+    }
+    .a-banner-caption p {
+        color: #343434;
+        font-size: 100%;
+        line-height: 120%;
+        width: 100%;
+    }
+    select {
+        width: 100%;
+        padding-top: 10px;
+    }
+    .a-banner-brands-caption {
+        position: relative;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+    .a-banner-company-img{
+        width: 33.3%;
+        padding-top: 5%;
+    }
+}

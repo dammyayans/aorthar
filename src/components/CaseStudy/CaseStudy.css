@@ -1,0 +1,50 @@
+.a-case-study-wrapper{
+    padding: 8% 0 8%;
+    color: #343434;
+}
+
+.a-case-study-caption{
+    color: #343434;
+    font-size: 90%;
+    line-height: 120%;
+    padding-top: 5%;
+}
+
+.a-case-study-cards{
+    margin-top: 6%;
+    height: 100%;
+}
+
+.a-case-study-cards:first-child,
+.a-case-study-cards:nth-child(2),
+.a-case-study-cards:last-child{
+    background-size: contain;
+    background-position: center;
+    height: 300px;
+    background-repeat: no-repeat;
+}
+.a-case-study-cards:first-child{
+    background-image: url("../../images/Reasone.png");
+}
+.a-case-study-cards:nth-child(2){
+    background-image: url("../../images/Raeanna.png");
+}
+.a-case-study-cards:last-child{
+    background-image: url("../../images/Ofelus.png");
+}
+
+@media screen and (max-width: 600px){
+    .a-case-study-wrapper{
+        padding: 20% 0 20%;
+    }
+    .a-case-study-heading{
+        color: #343434;
+        font-size: 100%;
+        line-height: 120%;
+    }
+    .a-case-study-caption{
+        color: #343434;
+        font-size: 100%;
+        line-height: 120%;
+    }
+}

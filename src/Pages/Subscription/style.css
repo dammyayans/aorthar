@@ -1,0 +1,87 @@
+.a-response-wrapper{
+    padding: 15% 0 5%;
+    color: #343434;
+}
+
+.a-response-card{
+    padding-top: 3%;
+}
+
+.a-how-it-works{
+    padding: 4% 0 2%;
+}
+
+.a-response-card-heading{
+    font-weight: bold;
+    font-size: 120%;
+    padding-bottom: 1% !important;
+}
+
+.a-response-card p{
+    font-size: 90%;
+    line-height: 140%;
+}
+
+.a-response-rate-cards-item{
+    border: 1px solid #343434;
+    padding: 8%;
+}
+
+.a-rate-cards-heading{
+    font-weight: bold;
+    color: #343434;
+    font-size: 110%;
+
+}
+
+.a-rate-cards-title{
+    font-weight: bold;
+    font-size: 140%;
+    line-height: 150%;
+    padding: 0% 0 8%;
+    color: #343434;
+}
+
+.a-rate-cards-list{
+    list-style-type: none;
+    padding: 0 !important;
+    margin: 0 !important;
+    /* font-size: 95%; */
+    line-height: 170%;
+}
+
+.amount{
+    font-weight: bold;
+    font-size: 150%;
+    color: #076847;
+}
+
+.line-through{
+    text-decoration: line-through;
+    opacity: .7;
+}
+
+@media screen and (max-width: 600px){
+    .a-response-wrapper {
+        padding: 35% 0 5%;
+        color: #343434;
+    }
+    .a-wwa-who {
+        color: #343434;
+        padding-bottom: 5%;
+    }
+    
+    h2 {
+        font-size: 35px;
+        font-weight: bold;
+        padding: 0 !important;
+    }
+
+    .a-response-card{
+        padding-top: 10%;
+    }
+
+    .a-response-rate-cards{
+        margin-top: 15%;
+    }
+}
