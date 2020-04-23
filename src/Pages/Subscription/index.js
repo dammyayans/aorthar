@@ -5,7 +5,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 import './style.css';
 import GetStarted from '../../components/GetStarted/GetStarted';
-// import Contentdesign from '../../images/contentdesign.png';
+import Contentdesign from '../../images/Damola.png';
 // import Contentwriting from '../../images/contentwriting.png';
 // import Mediamanagement from '../../images/mediamanagement.png';
 
@@ -35,17 +35,17 @@ export default class Confirmation extends Component {
                     <Col md={{ span: 10, offset: 1 }}>
                         <Row>
                             <Col xs={12} md={4} className="a-response-card">
-                                {/* <img src={Contentdesign} alt=""/> */}
+                                <img src={Contentdesign} alt=""/>
                                 <h3 className="a-response-card-heading">Content Design</h3>
                                 <p>We design every content you create or content we develop for you into graphics.</p>
                             </Col>
                             <Col xs={12} md={4} className="a-response-card">
-                                {/* <img src={Contentdesign} alt=""/> */}
+                                <img src={Contentdesign} alt=""/>
                                 <h3 className="a-response-card-heading">Content Writing</h3>
                                 <p>We write for you, your captions, your newsletters, your blogs and articles.</p>
                             </Col>
                             <Col xs={12} md={4} className="a-response-card">
-                                {/* <img src={Contentdesign} alt=""/> */}
+                                <img src={Contentdesign} alt=""/>
                                 <h3 className="a-response-card-heading">Social Media Management</h3>
                                 <p>We manage social media pages and interact with your audience on your behalf.</p>
                             </Col>
@@ -67,7 +67,7 @@ export default class Confirmation extends Component {
                         </Row>
                     </Col>
 
-                    <Col md={{ span: 10, offset: 1 }}>
+                    <Col md={12}>
                         <Row className="">
                         
                             <Col md={4} className="a-response-rate-cards">
@@ -140,6 +140,7 @@ export default class Confirmation extends Component {
                                         <span className="a-rate-cards-heading">Design Subscription</span>
                                         <p className="a-rate-cards-list">40 orders with moderate revisions</p>
                                         <p className="a-rate-cards-list">Priority support</p>
+                                        <p className="a-rate-cards-list">24 - 48 hours update</p>
                                     </div>
                                     <div className="pt-3">
                                         <span className="a-rate-cards-heading">Content Writing</span>

@@ -1,12 +1,8 @@
 .a-case-study-wrapper{
     padding: 8% 0 8%;
-    color: #343434;
 }
 
 .a-case-study-caption{
-    color: #343434;
-    font-size: 90%;
-    line-height: 120%;
     padding-top: 5%;
 }
 
@@ -36,15 +32,5 @@
 @media screen and (max-width: 600px){
     .a-case-study-wrapper{
         padding: 20% 0 20%;
-    }
-    .a-case-study-heading{
-        color: #343434;
-        font-size: 100%;
-        line-height: 120%;
-    }
-    .a-case-study-caption{
-        color: #343434;
-        font-size: 100%;
-        line-height: 120%;
     }
 }

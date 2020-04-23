@@ -8,14 +8,23 @@
 .a-blog-cards-heading{
     color: #343434;
     font-weight: bold;
-    font-size: 18px;
     padding: 6% 4% 0%;
+}
+
+.a-blog-cards .img{
+    width: 100%;
+}
+
+.a-blog-card-holder .img{
+    width: 100%;
+}
+
+.a-blog-card-holder p{
+    padding: 0% 4% 0%;
 }
 
 .a-team-caption{
     color: #343434;
-    font-size: 90%;
-    line-height: 120%;
     padding-top: 2%;
     width: 65%;
 }

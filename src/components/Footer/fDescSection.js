@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+
 // import { Row, Col } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -14,30 +14,30 @@ import Feedback from '../../images/feedback.png';
 class fDescSection extends Component {
     render() {
         return (
-           <div class="footer-desc-section">
-                <p class="text-center footer-desc-section-item">
+           <div className="footer-desc-section">
+                <p className="text-center footer-desc-section-item">
                     <span>Office: </span>
                     <span> No. 19a, Ogundana Street, Off Allen Avenue, Ikeja, Lagos State.</span>
                 </p>
-                <div class="footer-contact-section">
+                <div className="footer-contact-section">
                     <div>
                         <span>Email: </span>
-                        <Link to="/">hello@aorthar.com</Link>
+                        <a href="mailto:hello@aorthar.com">hello@aorthar.com</a>
                     </div>
                     <div>
                         <span>Contact: </span>
-                        <Link to="/">+234(0) 814 422 8160</Link>
+                        <a href="tel:+2348144228160">+234(0) 814 422 8160</a>
                     </div>
                 </div>  
                 <div className="d-flex justify-content-between footer-base-section">
                     <span>
                         &copy; 2019 - 2020 Aorthar Design Agency - RC 2986050
                     </span>
-                    <span class="footer-base-links">
-                        <Link><img src={TandC} alt="Feedback" /> Terms & Conditions</Link>
-                        <Link><img src={Feedback} alt="Feedback" /> Write us a Feedback</Link>
-                        <Link><img src={Download} alt="Rate Card" /> Download our Rate Card</Link>
-                        <Link><img src={Career} alt="Rate Card" /> Career & Internship</Link>
+                    <span className="footer-base-links extraSmallText">
+                        <a href="/"><img src={TandC} alt="Feedback" /> Terms & Conditions</a>
+                        <a href="/"><img src={Feedback} alt="Feedback" /> Write us a Feedback</a>
+                        <a href="/"><img src={Download} alt="Rate Card" /> Download our Rate Card</a>
+                        <a href="/"><img src={Career} alt="Rate Card" /> Career & Internship</a>
                     </span>
                 </div>              
            </div>

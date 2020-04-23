@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-
+import '../GlobalStyles/global.css';
 import './WhoWeAre.css';
+
 import { Container, Col, Row } from 'react-bootstrap';
 
 import Person1 from '../../images/person1.png';
-// import Person2 from '../../images/person2.png';
+import Person2 from '../../images/person2.png';
 import Forward from '../../images/forward.png';
 
 
@@ -18,10 +19,10 @@ export default class WhoWeAre extends Component {
                 <Col md={{ span: 8, offset: 2 }} sm={{ span: 10, offset: 1 }}>
                     <Row>
                         <Col xs={12} md={6} sm={12}>
-                            <h2>
-                                <span className="a-wwa-who">Who </span>
-                                <span className="a-wwa-we">we </span>
-                                <span className="a-wwa-are">are</span>
+                            <h2 className="bigText">
+                                <span className="black">Who </span>
+                                <span className="green">we </span>
+                                <span className="black">are</span>
                             </h2>
                         </Col>
                         <Col xs={12} md={6} sm={12}>
@@ -50,13 +51,13 @@ export default class WhoWeAre extends Component {
                                 <img src={Person1} alt="Person1" className="image-single" />
                             </Col>
                             <Col md={6} className="image">
-                                <img src={Person1} alt="Person2" className="image-single" />
+                                <img src={Person2} alt="Person2" className="image-single" />
                             </Col>
                         </Row>
                     </Col>
                     <Col md={2} sm={8} className="a-wwa-sideline">
                         <div>
-                            <p>Find us on</p>
+                            <p className="smallBoldText black">Find us on</p>
                             <span>
                                 <li>
                                     <a href="https://fb.com">Facebook</a>                                

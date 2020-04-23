@@ -1,32 +1,14 @@
 .a-get-started-wrapper{
-     padding: 5% 0 5%;
+     padding: 8% 0 8%;
      color: #343434;
- }
-
- .a-get-started-heading h1{
-     font-weight: bold;
-     font-size: 250%;
-     padding-top: 0;
- }
-
- .a-get-started-heading h1 span{
-     color: #076848;
  }
 
  .a-get-started-caption{
      padding-top: 5%;
-     font-size: 80%;
  }
 
  .a-get-started-contact{
      padding-top: 5%;
-     font-weight: bold;
-     font-size: 120%;
-     color: #343434;
- }
-
- .a-get-started-contact span{
-     color: #076847;
  }
 
  .a-get-started-testimonies{
@@ -49,9 +31,16 @@
     margin: 0 auto;
     width: 60%;
     color: #f3f3f3;
-    font-size: 90%;
-    line-height: 130%;
     padding: 8% 0 8%;
+}
+
+.a-hello-aorthar{
+    text-decoration: none;
+}
+
+.a-hello-aorthar:hover{
+    color: #076847;
+    text-decoration: none;
 }
 
 
@@ -61,14 +50,10 @@
     }
     .a-get-started-caption{
         color: #343434;
-        font-size: 100%;
-        line-height: 120%;
     }
     .a-get-started-contact{
         padding-top: 5%;
         font-weight: bold;
-        font-size: 120%;
-        line-height: 140%;
         color: #343434;
     }
    

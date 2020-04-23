@@ -3,6 +3,7 @@ import { Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './Footer.css';
+import '../GlobalStyles/global.css';
 
 import ContactSection from './fContatctSection';
 import DescSection from './fDescSection';

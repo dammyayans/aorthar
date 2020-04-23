@@ -19,42 +19,42 @@ export default function TeamLeads() {
         <div class="a-team-leads">
               <Container>
                 <Row>
-                    <Col md={{ span: 10, offset: 1 }} xs={{ span: 8, offset: 2}} className="a-team-card-holder pt-5">
+                    <Col md={{ span: 10, offset: 1 }}  className="a-team-card-holder pt-5">
                         <Row>
                             <Col xs={12} md={4} className="a-blog-cards">
-                                <img src={Damola} alt=""/>
+                                <img src={Damola} alt="" className="img"/>
                                 <div className="a-blog-cards-heading pb-1">Adewale Adedamola</div>
                                 <p>Team Lead, CEO</p>
                             </Col>
                             <Col xs={12} md={4} className="a-blog-cards">
-                                <img src={Pelumi} alt=""/>
+                                <img src={Pelumi} alt="" className="img"/>
                                 <div className="a-blog-cards-heading pb-1">Eniodunmo Pelumi</div>
                                 <p>Software and Tech</p>
                             </Col>
                             <Col xs={12} md={4} className="a-blog-cards">
                                 <div>
-                                    <img src={Naomi} alt=""/>
+                                    <img src={Naomi} alt="" className="img"/>
                                     <div className="a-blog-cards-heading pb-1">Odidi Naomi</div>
                                     <p>Business Developer, COO</p>
                                 </div>
                             </Col>
                         </Row>
                     </Col>
-                    <Col md={{ span: 10, offset: 1 }} xs={{ span: 8, offset: 2}} className="a-blog-card-holder pt-3">
+                    <Col md={{ span: 10, offset: 1 }} className="a-blog-card-holder pt-3">
                         <Row>
                             <Col xs={12} md={4} className="">
-                                <img src={Opeyemi} alt=""/>
+                                <img src={Opeyemi} alt="" className="img"/>
                                 <div className="a-blog-cards-heading pb-1">Adewale Adedamola</div>
                                 <p>Content Development, CIO</p>
                             </Col>
                             <Col xs={12} md={4} className="">
-                                <img src={Pelumi} alt=""/>
+                                <img src={Pelumi} alt="" className="img"/>
                                 <div className="a-blog-cards-heading pb-1">Eniodunmo Pelumi</div>
                                 <p>Design and Creatives</p>
                             </Col>
                             <Col xs={12} md={4} className="">
                                 <div>
-                                    <img src={Erica} alt=""/>
+                                    <img src={Erica} alt="" className="img"/>
                                     <div className="a-blog-cards-heading pb-1">Abala Erica</div>
                                     <p>Customer Relations, CFO</p>
                                 </div>

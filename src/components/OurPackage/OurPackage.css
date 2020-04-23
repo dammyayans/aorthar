@@ -4,21 +4,12 @@
     background-color: #f3f3f3;
 }
 
-.a-our-packages-heading h1{
-    font-size: 250%;
-    font-weight: bold;
-}
-
 .push{
     margin-top: 15%;
 }
 
-.a-our-packages-heading h1 span{
-    color: #076847;
-}
 
 h2{
-    font-size: 45px;
     font-weight: bold;
 }
 
@@ -28,7 +19,6 @@ h2{
 }
 
 .a-our-packages-quotes p{
-    font-size: 250%;
     color: #076847;
     font-style: italic;
 }
@@ -86,8 +76,6 @@ h2{
     }
     .a-our-packages-heading p{
         color: #343434;
-        font-size: 100%;
-        line-height: 120%;
     }
     .a-our-packages-form{
         width: 100%;
@@ -114,7 +102,6 @@ h2{
     }
     
     .a-our-packages-quotes p{
-        font-size: 200%;
         color: #076847;
         font-style: italic;
     }

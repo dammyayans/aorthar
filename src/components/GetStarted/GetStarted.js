@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import  { Link }  from 'react-router-dom';
+// import  { Link }  from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './GetStarted.css';
+import '../GlobalStyles/global.css';
 
 import  Placeholder from '../../images/Opeyemi.png';
 
@@ -17,24 +18,22 @@ class GetStarted extends Component {
             <Container fluid className="a-get-started-wrapper">
                 <Col md={{ span: 8, offset: 2 }}>
                     <Row>
-                        <Col xs={12} md={6} className="a-get-started-heading">
-                            <h1>
-                                Ready to start <br /> with <span>Us?</span>
-                            </h1>
+                        <Col xs={12} md={6}>
+                            <div className="bigText">
+                                <div>Ready to start</div>
+                                <div>with <span className="green">us?</span></div>
+                            </div>
                             <p className="a-get-started-caption">Let's build something together! Enjoy the <br />luxury of working with us or contact us <br/> below</p>
                             <select>
                                 <option>Select a service</option>
-                                <option>
-                                    <Link to="/">Design</Link>
-                                </option>
-                                <option>
-                                    <Link to="/">Design</Link>
-                                </option>
-                                <option>
-                                    <Link to="/">Design</Link>
-                                </option>
+                                <option>Design</option>
+                                <option>Design</option>
+                                <option>Design</option>
                             </select>
-                            <p className="a-get-started-contact">Send us a mail via <span>hello@aorthar.com</span><br />or call: +234(0) 814 422 8160</p>
+                            <p className="a-get-started-contact smallBoldText black">
+                                Send us a mail via <a href="mailto:hello@aorthar.com" className="green a-hello-aorthar">hello@aorthar.com</a><br />
+                                or call: +234(0) 814 422 8160
+                            </p>
                         </Col>
                         <Col xs={12} md={6} className="">
                             <Row className="justify-content-md-center">

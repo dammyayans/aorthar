@@ -7,8 +7,8 @@ import CaseStudy from '../../components/CaseStudy/CaseStudy';
 import GetStarted from '../../components/GetStarted/GetStarted';
 import OurPackage from '../../components/OurPackage/OurPackage';
 import Blog from '../../components/Blog/Blog';
-import MenuOptions from '../../components/MenuOptions/MenuOptions';
-import ExploreOptions from '../../components/ExploreOptions/ExploreOptions';
+// import MenuOptions from '../../components/MenuOptions/MenuOptions';
+// import ExploreOptions from '../../components/ExploreOptions/ExploreOptions';
 
 export default function index() {      
 
@@ -21,8 +21,8 @@ export default function index() {
             <GetStarted />
             <OurPackage />
             <Blog />
-            <MenuOptions />
-            <ExploreOptions />
+            {/* <MenuOptions /> */}
+            {/* <ExploreOptions /> */}
         </div>
     )
 }

@@ -10,7 +10,7 @@ import DarkModeIcon from '../../images/darkmodeicon.png';
 class Navbar extends Component {
     render() {
         return (
-            <nav className="a-navbar-wrapper">
+            <nav className="a-navbar-wrapper sticky-top">
                 <Container>
                     <nav>
                         <span className="a-navbar-logo-container">

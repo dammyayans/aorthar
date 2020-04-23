@@ -61,6 +61,10 @@
     opacity: .7;
 }
 
+.imgxyz{
+    background-image: url('../../images/Reasone.png');
+}
+
 @media screen and (max-width: 600px){
     .a-response-wrapper {
         padding: 35% 0 5%;

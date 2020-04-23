@@ -2,8 +2,6 @@
      background-color: #076847;
      color: #fff;
      padding: 4% 0 6%;
-     font-size: 15px;
-     line-height: 20px;
  }
 
  .a-footer-desc{
@@ -12,13 +10,10 @@
      justify-content: center;
      width: 80%;
      text-align: center;
-    font-size: 80%;
-    line-height: 110%;
  }
 
  .a-footer-contact{
      padding: 2% 0 8%;
-     /* font-size: 90%; */
  }
 
  @media screen and (max-width: 600px){
@@ -28,7 +23,5 @@
         justify-content: center;
         width: 100%;
         text-align: center;
-        font-size: 80%;
-        line-height: 110%;
      }
  }

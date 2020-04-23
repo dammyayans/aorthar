@@ -5,29 +5,13 @@
     padding: 8% 0 8%;
     color: #343434;
 }
-h2{
-    font-size: 45px;
-    font-weight: bold;
-}
-
-.a-our-services-h1{
-    color: #076847;
-}
-
-.a-our-services-h2{
-    color: #343434;
-}
 
 h4{
-    font-size: 20px;
-    font-weight: bold;
     padding-top: 20%;
 }
 
 .a-our-services-heading{
     color: #343434;
-    font-size: 90%;
-    line-height: 120%;
 }
 
 /* Meqia Query */
@@ -35,13 +19,7 @@ h4{
     .a-our-services-wrapper{
         padding: 20% 0 20%;
     }
-    .a-our-services-heading{
-        color: #343434;
-        font-size: 100%;
-        line-height: 120%;
-    }
     h4 {
-        font-size: 20px;
         font-weight: bold;
         padding-top: 10%;
     }

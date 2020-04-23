@@ -6,8 +6,6 @@
     background-color: #ffffff;
     padding-bottom: 40px;
     display: none;
-    /* box-shadow: 0 0 0 35px rgba(0,0,0,0.1); */
-    /* height: 90vh; */
 }
 
 .a-navbar-menu-options{
@@ -17,8 +15,6 @@
 
 .a-navbar-menu-options div, a{
     text-align: end;
-    font-size: 100%;
-    line-height: 110%;
     text-decoration: none;
     color: #076847;
     padding-bottom: 20px;
@@ -30,8 +26,6 @@ a:hover{
 }
 
 .a-navbar-menu-boldheader{
-    font-size: 150% !important;
-    line-height: 160%;
     font-weight: bold;
     margin-top: 50px;
 }

@@ -1,7 +1,5 @@
 .footer-desc-section{
     padding-top: 20px;
-    font-size: 80%;
-    line-height: 110%;
 }
 
 .footer-desc-section-item span:first-child{
@@ -55,8 +53,6 @@
     
     .footer-desc-section{
         padding-top: 40px;
-        font-size: 80%;
-        line-height: 110%;
         padding: 15% 0 0;
         margin: 0 auto;
         justify-content: center;

@@ -37,6 +37,8 @@ export default function App() {
             <TheTeam />
           </Route>
 
+          {/* <Route component={ErrorPage} /> */}
+
           <Route exact path="/">
             <Home />
           </Route>
