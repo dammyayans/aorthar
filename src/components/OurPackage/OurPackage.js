@@ -10,7 +10,7 @@ import DesignQuotes from './designQuotes';
 export default class OurPackages extends Component {
     render() {
         return (
-            <Container fluid className="a-our-packages-wrapper">                        
+            <Container fluid className="a-our-packages-wrapper greybg">                        
                 <Col md={{ span: 8, offset: 2 }}>
                     <Row>
                         <Col xs={12} md={7} className="px-0">

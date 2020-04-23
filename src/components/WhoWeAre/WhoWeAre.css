@@ -65,7 +65,6 @@
 /* Meqia Query */
 @media screen and (max-width: 600px){
     .a-wwa-caption{
-        color: #343434;
         padding: 0 !important;
     }
     .image:last-child{
@@ -73,7 +72,6 @@
     }
     .a-wwa-wrapper{
         padding: 20% 0 20%;
-        color: #343434;
     }
     .a-wwa-sideline{
         display: inline-block;

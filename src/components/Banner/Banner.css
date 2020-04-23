@@ -1,6 +1,5 @@
 .a-banner-wrapper{
     padding: 20% 0 15%;
-    color: #343434;
 }
 
 .a-banner-heroImg{
@@ -9,9 +8,14 @@
     background-position: center;
 }
 
-.a-banner-heroImg{
+.a-banner-heroImg,
+.a-banner-heroImgD{
     height: 200%;
 }
+
+/* .a-banner-heroImgD{
+    display: none !important;
+} */
 
 .a-banner-caption{
     padding-top: 4%;
@@ -22,15 +26,9 @@
     width: 65%;
 }
 
-.a-banner-greenText{
-    color: #076847;
-}
-
 .a-banner-trusted-brands{
-    background-color: #f3f3f3;
     padding: 2% 0%;
     font-weight: bold;
-    color: #343434;
 }
 
 .a-banner-brands-caption{
@@ -45,7 +43,6 @@
     right: 0;
     height: 30%;
     margin: auto;
-    color: #343434;
 }
 
 select{
@@ -75,7 +72,6 @@ option{
 @media screen and (max-width: 600px){
 
     .a-banner-wrapper{
-        color: #343434;
         margin-top: 20%;
         margin: 0 auto;
     }
@@ -92,7 +88,6 @@ option{
         margin: 0 auto;
     }
     .a-banner-caption p {
-        color: #343434;
         width: 100%;
     }
     select {

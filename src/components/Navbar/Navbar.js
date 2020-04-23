@@ -10,21 +10,28 @@ import DarkModeIcon from '../../images/darkmodeicon.png';
 class Navbar extends Component {
     render() {
         return (
-            <nav className="a-navbar-wrapper sticky-top">
+            <nav className="a-navbar-wrapper sticky-top whitebgNav">
                 <Container>
                     <nav>
                         <span className="a-navbar-logo-container">
                             <a href="/" ><img src={Logo} alt=""/></a>
-                            {/* <span>Explore</span> */}
                         </span>
                         <span className="a-navbar-others">
                             <span className="a-navbar-dm">
                                 <img src={DarkModeIcon} alt="MenuBar"/> 
-                                {/* <span>Dark Mode</span> */}
                             </span>
-                            <span className="a-navbar-menubar">
+                            <span className="a-navbar-menubar blackText">
                                 <img src={MenuBar} alt="MenuBar" />
                                 <span>Menu</span>
+                            </span>
+                            <span>
+                            {/* <button 
+                                onClick={ e => setTheme(
+                                    theme.mode === 'dark' 
+                                    ? {mode: 'light'}
+                                    : {mode: 'dark'})}>
+                                    Toggle Theme
+                                </button> */}
                             </span>
                         </span>
                     </nav>                    

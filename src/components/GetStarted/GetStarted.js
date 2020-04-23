@@ -15,7 +15,7 @@ import  Placeholder from '../../images/Opeyemi.png';
 class GetStarted extends Component {
     render() {
         return (
-            <Container fluid className="a-get-started-wrapper">
+            <Container fluid className="a-get-started-wrapper greybg">
                 <Col md={{ span: 8, offset: 2 }}>
                     <Row>
                         <Col xs={12} md={6}>
@@ -23,7 +23,7 @@ class GetStarted extends Component {
                                 <div>Ready to start</div>
                                 <div>with <span className="green">us?</span></div>
                             </div>
-                            <p className="a-get-started-caption">Let's build something together! Enjoy the <br />luxury of working with us or contact us <br/> below</p>
+                            <p className="a-get-started-caption blackText">Let's build something together! Enjoy the <br />luxury of working with us or contact us <br/> below</p>
                             <select>
                                 <option>Select a service</option>
                                 <option>Design</option>
@@ -36,12 +36,12 @@ class GetStarted extends Component {
                             </p>
                         </Col>
                         <Col xs={12} md={6} className="">
-                            <Row className="justify-content-md-center">
+                            <Row className="justify-content-md-center blackText">
                                 <Col md="auto" className="a-get-started-testimonies">
                                     <img src={Placeholder} alt="person" />
                                     <div>
                                         <div className="a-get-started-words">
-                                            <p>
+                                            <p className="blackText">
                                                 Aorthar has immersed itself into
                                                 the work they do and that has made
                                                 them outstanding from the rest. They
@@ -49,7 +49,7 @@ class GetStarted extends Component {
                                                 and every little detail matters so much
                                                 to them.
                                             </p>
-                                            <p><span>-</span>Karr Johnson</p>
+                                            <p className="blackText"><span>-</span>Karr Johnson</p>
                                         </div>
                                     </div>
                                 </Col>

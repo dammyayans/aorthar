@@ -9,7 +9,7 @@ import { Container, Col, Row } from 'react-bootstrap';
 export default class OurServices extends Component {
     render() {
         return (
-            <Container fluid className="a-our-services-bg">
+            <Container fluid className="greybg">
                 <Container className="a-our-services-wrapper">
                     <Row className="justify-content-md-center">
                         <Col md="auto">
@@ -21,16 +21,17 @@ export default class OurServices extends Component {
                     </Row>
                     <Row className="justify-content-md-center">
                         <Col xs={12} md={4} className="a-our-services-heading">
-                            <h4 className="mediumText black">Branding</h4>
-                            <p>
+                            <h4 className="mediumText blackText">Branding</h4>
+                            <p className="blackText">
                                 We give your product and brand a
                                 distinctive look, unveiling the grasp of what 
                                 your brand does, and what it stands for.
                             </p>
                         </Col>
                         <Col xs={12} md={4} className="a-our-services-heading">
-                            <h4 className="mediumText black">Product Design</h4>
-                            <p>We give your website a beautiful look, 
+                            <h4 className="mediumText blackText">Product Design</h4>
+                            <p className="blackText">
+                                We give your website a beautiful look, 
                                 understandable and easy-to-use interface 
                                 for your customers.
                             </p>
@@ -38,15 +39,16 @@ export default class OurServices extends Component {
                     </Row>
                     <Row className="justify-content-md-center">
                         <Col xs={12} md={4} className="a-our-services-heading">
-                            <h4 className="mediumText black">Content Marketing</h4>
-                            <p>We deliver the perfect message to the
+                            <h4 className="mediumText blackText">Content Marketing</h4>
+                            <p className="blackText">
+                            We deliver the perfect message to the
                             perfect listeners. We write blogs, stories, 
                             newsletter and needed captions.
                             </p>
                         </Col>
                         <Col xs={12} md={4} className="a-our-services-heading">
-                            <h4 className="mediumText black">Software Development</h4>
-                            <p>
+                            <h4 className="mediumText blackText">Software Development</h4>
+                            <p className="blackText">
                             We develop your apps and websites into a
                             perfect working prototype as we deliver 
                             design, front-end and back-end service.

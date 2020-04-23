@@ -15,7 +15,7 @@ export default class CaseStudy extends Component {
                             <h2 className="bigText black">Case Study</h2>
                         </Col>
                         <Col xs={12} md={6}>
-                            <div className="a-case-study-caption">
+                            <div className="a-case-study-caption blackText">
                                 Have a glance at some selected works we are proud of, as
                                 we delivered solutions to branding and design pattern and
                                 design problems, with in-depth research, innovation and creativity.

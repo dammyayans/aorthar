@@ -41,6 +41,34 @@
     color: #343434;
 }
 
+
+/* bg */
+
+.whitebg, .whitebgNav{
+    background-color: #fff;
+    /*switch to #000; */
+}
+
+
+
+.greybg{
+    background-color: #F3F3F3;
+    /* switch to #111 */
+}
+
+.blackText{
+    color: #343434;
+    /* switch to #eee */
+}
+
+.toggleButton{
+    z-index: 2000;
+    position: fixed;
+    padding: 10px;
+    font-weight: bold;
+    border: 0;
+}
+
 a, input, textarea, button {
     outline: none;
     text-decoration: none;
