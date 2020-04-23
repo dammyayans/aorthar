@@ -14,14 +14,14 @@ export default function index() {
             <Col md={{ span: 10, offset: 1 }} sm={{ span: 10, offset: 1 }} className="push2">
                 <Row>
                     <Col xs={12} md={6} sm={12}>
-                        <h2>
-                            <span className="a-wwa-who">Branding so  </span>
-                            <span className="a-wwa-we">real, </span> <br />
-                            <span className="a-wwa-are">it lives</span>
+                        <h2 className="bigText">
+                            <span className="black">Branding so  </span>
+                            <span className="green">real, </span> <br />
+                            <span className="black">it lives</span>
                         </h2>
                     </Col>
                     <Col xs={12} md={6} sm={12}>
-                        <div className="a-wwa-caption">
+                        <div className="a-wwa-caption blackText">
                            Aorthar has delivered sterling service to a wide array of 
                            businesses in a variety of industries, leaving a trail of 
                            thoroughly satisfied clients. Across every engagement,
@@ -46,7 +46,7 @@ export default function index() {
             <Col  md={{ span: 10, offset: 1 }} sm={{ span: 10, offset: 1 }}>
                 <Row>
                     <Col xs={12} md={6} sm={12}>
-                        <h1 className="a-our-works">Our Wide Range of services</h1>
+                        <h1 className="bigText black">Our Wide Range of services</h1>
                     </Col>
                     <Col xs={12} md={6} sm={12}>
                         <div className="a-wwa-caption">
@@ -99,11 +99,11 @@ export default function index() {
 
             <Col  md={{ span: 10, offset: 1 }} sm={{ span: 10, offset: 1 }} className="push2">
                 <Row>
-                    <Col xs={12} md={4} sm={12}>
-                        <h1 className="a-our-works">Our creative process</h1>
+                    <Col xs={12} md={6} sm={12}>
+                        <h1 className="bigText black">Our creative process</h1>
                     </Col>
                     <Col xs={12} md={6} sm={12}>
-                        <div className="a-wwa-caption">
+                        <div className="a-wwa-caption blackText">
                             We believe in having all our docks in a row and never misisng the
                             details on each project we embark upon. The goalof our creative process
                             is to set clear milestones and deadlines, ensuring timely delivery of 

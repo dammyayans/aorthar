@@ -42,14 +42,10 @@
 }
 
 
-/* bg */
-
 .whitebg, .whitebgNav{
     background-color: #fff;
     /*switch to #000; */
 }
-
-
 
 .greybg{
     background-color: #F3F3F3;

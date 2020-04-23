@@ -58,7 +58,7 @@ body{
   color: ${props => props.theme.mode === 'dark' ? '#000' : '#343434'};   
 }
 .toggleMode{
- 
+  opacity: ${props => props.theme.mode === 'dark' ? '.5' : '1'};     
 }
 `;
 function getInitialTheme() {
@@ -96,7 +96,6 @@ export default function App() {
                                     theme.mode === 'dark' 
                                     ? {mode: 'light'}
                                     : {mode: 'dark'})} /> 
-                                  
                               </span>
                               <span className="a-navbar-menubar blackText">
                                   <img src={MenuBar} alt="MenuBar" />
