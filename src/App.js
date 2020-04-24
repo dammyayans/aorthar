@@ -10,7 +10,7 @@ import { Container } from "react-bootstrap";
 import Logo from "./images/logo.png";
 import MenuBar from "./images/menuicon.png";
 import DarkModeIcon from "./images/darkmodeicon.png";
-import Navbar from "./components/Navbar/Navbar";
+import NavBar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 
 import Home from "./Pages/Home";
@@ -83,7 +83,7 @@ export default function App() {
       <ThemeProvider theme={theme}>
         <>
           <div className="cover">
-            <Navbar
+            <NavBar
               onClick={() =>
                 setTheme(
                   theme.mode === "dark" ? { mode: "light" } : { mode: "dark" }
